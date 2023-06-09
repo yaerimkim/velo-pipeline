@@ -83,7 +83,7 @@ data_analysis = BashOperator(
 end = BashOperator(
     task_id='end',
     bash_command="""
-
+    end
     """,
     dag=test_dag
 )
